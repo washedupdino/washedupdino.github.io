@@ -1,0 +1,25 @@
+// BANNER
+h1 {
+	&.axil-display-1 {
+		font-size: 55px;
+		line-height: 68px;
+	}
+}
+
+img#featured-case-study {
+	max-height: 700px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body.active-dark-mode .portfolio .inner .thumb::before {
+	border: none;
+	border-bottom: 4px solid #242526;
+}
+
+.thumbnail .image.parallax-image img {
+	max-width: 410px;
+	height: auto;
+}
